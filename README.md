@@ -48,7 +48,7 @@ So, if we can predict the risk factors of infant mortality, it can be helpful fo
 
 **Figure: Scatter diagram of the infants who died before the first birthday in correspondence to BMI & Mothers age at birth**
 
-![Scatter Plot - BMI vs Mother's Age at Birth](./images/scatter_plot_bmi_age.png)
+![Scatter Plot - BMI vs Mother's Age at Birth](https://github.com/farukhasan/ml-predict-infant-mortality/blob/main/charts/scatterplot.png)
 
 The figure is the scatter diagram of the infants who died before their first birthday in correspondence to Body Mass Index & Mothers age at birth. Key observations:
 
@@ -60,7 +60,7 @@ The figure is the scatter diagram of the infants who died before their first bir
 
 **Figure: Pair plots of different variables in correspondence with infant mortality**
 
-![Pair Plots - Variables vs Infant Mortality](./images/pair_plots.png)
+![Pair Plots - Variables vs Infant Mortality](https://github.com/farukhasan/ml-predict-infant-mortality/blob/main/charts/cross_correlation.png)
 
 ---
 
@@ -71,7 +71,7 @@ The figure is the scatter diagram of the infants who died before their first bir
 #### 1. Random Forests Feature Selection
 **Figure: Features selection using Random Forests**
 
-![Random Forest Feature Selection](./images/rf_feature_selection.png)
+![Random Forest Feature Selection](https://github.com/farukhasan/ml-predict-infant-mortality/blob/main/charts/important_variable.png)
 
 #### 2. SVM Feature Selection
 Decision Trees and Random Forests do not require any assumption, but SVM and Logistic regression require the assumption of independence among predictors variables. Hence, we are exploring important features using SVM. 
@@ -80,7 +80,7 @@ Once having the fitted SVM with a linear kernel, then the important features can
 
 **Figure: Features selection using SVM**
 
-![SVM Feature Selection](./images/svm_feature_selection.png)
+![SVM Feature Selection](https://github.com/farukhasan/ml-predict-infant-mortality/blob/main/charts/feature_engineering.png)
 
 ---
 
@@ -102,7 +102,7 @@ Before using any machine learning model, for instance, Decision Trees (DT), Rand
 
 ### Confusion Matrices of Machine Learning Models
 
-![Confusion Matrices for All Models](./images/confusion_matrices.png)
+![Confusion Matrices for All Models](https://github.com/farukhasan/ml-predict-infant-mortality/blob/main/charts/confusion_matrix.png)
 
 The confusion matrices were calculated using the scikit-learn module considering 70% observations as training data and 30% observation as test data with random seed 3299 in Python version 3.7.3.
 
@@ -122,7 +122,7 @@ The confusion matrices were calculated using the scikit-learn module considering
 
 ### ROC Curve Analysis
 
-![ROC Curves for All Models](./images/roc_curves.png)
+![ROC Curves for All Models](https://github.com/farukhasan/ml-predict-infant-mortality/blob/main/charts/AUC.png)
 
 The ROCs were calculated using the scikit-learn module with random seed 100 in Python version 3.7.3, considering 70% observations as training data and 30% observation as test data.
 
