@@ -2,13 +2,6 @@
 
 # Evaluation of Machine Learning Models to Predict Infant Mortality in Bangladesh
 
-**Author:** Faruk Hasan  
-**Date:** August 11, 2022  
-**Reading Time:** 5 minutes
-
----
-
-## Abstract
 
 Infant mortality is an important indication of the overall health situation of a nation. This study evaluates the performances of popular machine learning models such as Decision Trees (DTs), Random Forests (RFs), Support Vector Machines (SVM), and Logistic Regression (LR) to predict infant mortality in Bangladesh. 
 
